@@ -1,2 +1,2 @@
-# pyhon
+# Python
 my python practice
