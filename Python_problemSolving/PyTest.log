@@ -143,3 +143,8 @@ javis-MacBook.local,javi,W1I5,FError: NameError at line 21,Tue May 24 08:12:27 2
 javis-MacBook.local,javi,W1I5,FFFFFFFFFFFF,Tue May 24 08:15:28 2022,
 javis-MacBook.local,javi,W1I5,FError: NameError at line 37,Tue May 24 09:46:35 2022,
 javis-MacBook.local,javi,W1I5,FError: NameError at line 37,Tue May 24 09:46:35 2022,
+javis-MacBook.local,javi,W1A6,FFFFPFPFFFFFFFPFFFF,Thu Jun 30 12:43:57 2022,
+javis-MacBook.local,javi,W1A6,FFFFFFFFFFFFFFFFFFF,Thu Jun 30 12:44:43 2022,
+javis-MacBook.local,javi,W1A6,FFFFFFFFFFFFFPFPFPF,Thu Jun 30 12:47:01 2022,
+javis-MacBook.local,javi,W1A6,FFFFFFFFFFFFFPFPFPF,Thu Jun 30 12:53:08 2022,
+javis-MacBook.local,javi,W1A6,PPPPFFFPPPFFError: IndexError at line 25,Thu Jun 30 13:01:40 2022,
