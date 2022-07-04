@@ -8,8 +8,9 @@ from PyTest import *
 ##   "abc", "" -> "abc"                                                      //
 ##/////////////////////////////////////////////////////////////////////////////
 
-user = input('Please insert an input: ')
-lst = user.split()
+userA = input('Please insert an input: ')
+userB = input('Please insert an input: ')
 
-for i in lst:
-    pass
+
+print(userA+userB)
+
