@@ -7,3 +7,9 @@ from PyTest import *
 ##   "dog", "cat" -> "dogcat"                                                //
 ##   "abc", "" -> "abc"                                                      //
 ##/////////////////////////////////////////////////////////////////////////////
+
+user = input('Please insert an input: ')
+lst = user.split()
+
+for i in lst:
+    pass
