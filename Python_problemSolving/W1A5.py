@@ -9,3 +9,15 @@ from PyTest import *
 ##   "Hello", "java" -> "ellojava"                                           //
 ##   "java", "Hello" -> "javaello"                                           //
 ##/////////////////////////////////////////////////////////////////////////////
+
+#Concatenate thogether
+a = input('pls insert an input: ')
+lsta = a.split()
+b = input('pls insert an input: ')
+lstb = b.split()
+result = []
+
+
+
+
+#Check the lenght of the string 
