@@ -13,7 +13,7 @@ a = input('pls type a word: ').lower()
 #convert the input into a list 
 lst = a.split()
 
-#iterate the list 
+#iterate the lists
 for i in lst:
     #We slice it to check the first 3 characters
     if i[0:3] == 'bad':
