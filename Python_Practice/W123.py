@@ -6,3 +6,21 @@ from PyTest import *
 ##   hrs mins secs hrs mins secs    hrs mins secs              // 
 ##   13   24   30   2   40   40  -> 16    5   10               //
 ##///////////////////////////////////////////////////////////////
+
+
+from datetime import datetime, timedelta
+
+#Input time
+time_str = '13:24:30'
+time = datetime.strptime(time_str, '%H:%M:%S')
+
+#Input time interval
+interval_str = '02:40:40'
+hours, minutes, seconds = map(int, interval_str.split(':'))
+interval = timedelta(hours=hours, minutes=minutes, seconds=seconds)
+
+#Add interval to time
+result = time + interval
+
+#Print the result in the required format
+print(result.strftime('%H %M %S'))
