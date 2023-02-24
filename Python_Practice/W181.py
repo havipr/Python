@@ -6,3 +6,10 @@ from PyTest import *
 ##   ("hi") -> "hi"                                                          //
 ##   ("h") -> "h@"                                                           //
 ##/////////////////////////////////////////////////////////////////////////////
+
+
+def first_two_chars(s):
+    if len(s) >= 2:
+        return s[:2]
+    else:
+        return s + "@"*(2-len(s))
