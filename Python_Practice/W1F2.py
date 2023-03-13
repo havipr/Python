@@ -9,3 +9,14 @@ from PyTest import *
 ##    1, 3, 1, 4, 4, 3, 1  -> 1, 3, 4, 1, 1, 3, 4                            //
 ##    3, 2, 2, 4  -> 3, 4, 2, 2                                              //
 ##/////////////////////////////////////////////////////////////////////////////
+
+def fix_34(nums):
+    threes = [i for i in range(len(nums)) if nums[i] == 3]
+    fours = [i for i in range(len(nums)) if nums[i] == 4]
+    
+    new_nums = nums[:]
+    for i in range(len(threes)):
+        new_nums[fours[i]] = new_nums[threes[i]+1]
+        new_nums[threes[i]+1] = 4
+    
+    return new_nums
