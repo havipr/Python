@@ -8,3 +8,10 @@ from PyTest import *
 ##   "abcdefg" -> "ab"                                                       //
 ##   "ab" -> "ab"                                                            //
 ##/////////////////////////////////////////////////////////////////////////////
+
+
+def first_two_chars(str):
+    if len(str) < 2:
+        return str
+    else:
+        return str[:2]
